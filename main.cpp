@@ -2,26 +2,23 @@
 
 using namespace std;
 
-int Add2Values(int, int);
+int Add2Values(float, float);
 
 int main()
 {
-    int x, y;
+    float x, y;
     cout
         << "-- Add 2 Values --\n"
         << "Enter x Values: ";
     cin >> x;
     cout << "Enter y Value: ";
     cin >> y;
-
-    cout << "__________________";
-
-    cout << Add2Values(x, y)
-
+    cout << Add2Values(x, y);
+    
     return 0;
 }
 
-int Add2Values(int x, int y)
+int Add2Values(float x, float y)
 {
-    // make your code here
+    return x+y;
 }
